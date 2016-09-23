@@ -1,13 +1,14 @@
 # Satispay App Extension
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
 
 - iOS ≥ 8.0
 - [Satispay](https://itunes.apple.com/it/app/satispay/id790287076?mt=8) ≥ 2.0.22
+
+## Installation
+
+- [With CocoaPods](#installation-using-cocoapods)
+- [Copying source files](#installation-copying-source-files)
 
 ## Installation (using CocoaPods)
 
@@ -45,6 +46,15 @@ To do so, just drag the source files found in the `SatispayAppExtension/Classes/
 ## Usage
 
 Detailed usage instructions are available as comments into the `SatispayAppExtension/Classes/SatispayExtension.h` header file and implemented in the `Example` project.
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## More info
+
+Additional info on how to create and handle charges are available in the Online API documentation at:
+https://s3-eu-west-1.amazonaws.com/docs.online.satispay.com/index.html
 
 ## License
 
