@@ -1,0 +1,6 @@
+framework module SatispayAppExtension {
+  umbrella header "SatispayAppExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
