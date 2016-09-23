@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062239505F748CDD8696195CD0C33AAB /* SatispayAppExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 933A40888A478F900BE7CD7290D01399 /* SatispayAppExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BDAB2144AA2B53CDF2D923575E2D3E5 /* SatispayExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 478C16C7D80E19ABD3C23BEB8757161C /* SatispayExtension.m */; };
+		42A0E2E902E6258F64AFB043DEC9F7DC /* Pods-SatispayAppExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF271E126F52D01379BDCA893AC075 /* Pods-SatispayAppExtension_Tests-dummy.m */; };
+		66ED038E7496D349159C74C1B69CEACC /* Pods-SatispayAppExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D25915E3763849D0508B48D2680CADD /* Pods-SatispayAppExtension_Example-dummy.m */; };
+		6FD34505E9C9D57D983662425FF0EC1E /* Pods-SatispayAppExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EC20490B23D4895F0D9B6B650E6574 /* Pods-SatispayAppExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C60060B1D3B12778BA3C0B9C74F9762 /* SatispayExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C1DAD2616602F1BC6E234F61371B8A /* SatispayExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933A39C23643565687B038535A8A205E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		ACE3EC92BE468CE729E129634D22192C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DBD360F3FD280D22118AA8A922A8DC14 /* Pods-SatispayAppExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E83CE9BAC018F10483929F48000CE4B4 /* Pods-SatispayAppExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DECB8EDA2539395251BCCD2D3CA3B32E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F3E2855303D032718E06F7837191CB63 /* SatispayAppExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D2D1CAD14B4EABFB34476A25162037 /* SatispayAppExtension-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6E3585D64581145CD6CA3D8DE1E8A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F472757903799737675D6BC09BF6AF0;
+			remoteInfo = SatispayAppExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D25915E3763849D0508B48D2680CADD /* Pods-SatispayAppExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SatispayAppExtension_Example-dummy.m"; sourceTree = "<group>"; };
+		110F934832BD6C42857404FF4F2A8D5B /* SatispayAppExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SatispayAppExtension.xcconfig; sourceTree = "<group>"; };
+		1B4A35373A8F478028217BFDE8FDD211 /* Pods-SatispayAppExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SatispayAppExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FCF271E126F52D01379BDCA893AC075 /* Pods-SatispayAppExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SatispayAppExtension_Tests-dummy.m"; sourceTree = "<group>"; };
+		23EC20490B23D4895F0D9B6B650E6574 /* Pods-SatispayAppExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SatispayAppExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2A4EF22B9A07EF2951CDB45B4A3F5F4D /* Pods-SatispayAppExtension_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatispayAppExtension_Example-resources.sh"; sourceTree = "<group>"; };
+		381ADA9CC7100862F7D4D0BB7ACB8116 /* SatispayAppExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatispayAppExtension-prefix.pch"; sourceTree = "<group>"; };
+		3A9460D5248A8C2B5F886E357AA4D7B8 /* Pods_SatispayAppExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SatispayAppExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		438FC2B2339E3663BDC3EF456398EEEE /* Pods-SatispayAppExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatispayAppExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
+		478C16C7D80E19ABD3C23BEB8757161C /* SatispayExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SatispayExtension.m; sourceTree = "<group>"; };
+		4988FAE20F2D4D15C5150ED0283274A4 /* Pods-SatispayAppExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SatispayAppExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52EE54AD5A15ED52DB1D648C8651B7B7 /* Pods-SatispayAppExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatispayAppExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54AB4D02D84CE8DE67421579B9D4E3B2 /* Pods-SatispayAppExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatispayAppExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		69C1DAD2616602F1BC6E234F61371B8A /* SatispayExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SatispayExtension.h; sourceTree = "<group>"; };
+		7B5EE0B40F4B35FC6CB6BFEA3DF6714C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933A40888A478F900BE7CD7290D01399 /* SatispayAppExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatispayAppExtension-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08D7FCBA91163CEE5E1AC43F91CCB21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C059A98E0FFAB15970DC6009D8D5DF /* Pods-SatispayAppExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SatispayAppExtension_Example.modulemap"; sourceTree = "<group>"; };
+		A717C94E266DDEEB62774F2EF23B8BBF /* Pods-SatispayAppExtension_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatispayAppExtension_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AB4A4F77A7AF31CD9310DFC6B0933C62 /* Pods_SatispayAppExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SatispayAppExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BE4446DD01726A45F3E7701C81E33C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DDDB08FA6E1C82EC56E74881F210C3 /* Pods-SatispayAppExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatispayAppExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BF22A68F4C58D0C96D4430143A0C125C /* Pods-SatispayAppExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SatispayAppExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		C177F21F18DB334CAACF8C3CE8A6EFB1 /* Pods-SatispayAppExtension_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatispayAppExtension_Tests-resources.sh"; sourceTree = "<group>"; };
+		C1D2D1CAD14B4EABFB34476A25162037 /* SatispayAppExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SatispayAppExtension-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7DEA01951B067C26C1A0929770547CD /* Pods-SatispayAppExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SatispayAppExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E83CE9BAC018F10483929F48000CE4B4 /* Pods-SatispayAppExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SatispayAppExtension_Example-umbrella.h"; sourceTree = "<group>"; };
+		EE60761C629A6E32270DDE5458FA62F3 /* Pods-SatispayAppExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SatispayAppExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F316A77902FB4A055D4D2EFC65FE1029 /* SatispayAppExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SatispayAppExtension.modulemap; sourceTree = "<group>"; };
+		F50E2E8E421B7D9EF82284ED95F7DD67 /* SatispayAppExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SatispayAppExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBBD6C40C221B6FCD44BA266D8B9943 /* Pods-SatispayAppExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatispayAppExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A6C70FC9830B61ED71B39BCB60AAF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECB8EDA2539395251BCCD2D3CA3B32E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AADC54B561EE68D2B21151148B17ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE3EC92BE468CE729E129634D22192C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2B62104CE12CF737A279E944DE80F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933A39C23643565687B038535A8A205E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260587E9855F8D3342B719FE4D6839B6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1B68668D36F83C79361122C83D1931 /* Pods-SatispayAppExtension_Example */,
+				6C5C3D2B71D7993B3C739F36B032B6D1 /* Pods-SatispayAppExtension_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4341CFFA23E169220B88D7199B005C56 /* SatispayAppExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CCFB21B00E44ABCB88958371EDE67D8A /* Classes */,
+			);
+			path = SatispayAppExtension;
+			sourceTree = "<group>";
+		};
+		6C5C3D2B71D7993B3C739F36B032B6D1 /* Pods-SatispayAppExtension_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE4446DD01726A45F3E7701C81E33C /* Info.plist */,
+				BF22A68F4C58D0C96D4430143A0C125C /* Pods-SatispayAppExtension_Tests.modulemap */,
+				D7DEA01951B067C26C1A0929770547CD /* Pods-SatispayAppExtension_Tests-acknowledgements.markdown */,
+				EE60761C629A6E32270DDE5458FA62F3 /* Pods-SatispayAppExtension_Tests-acknowledgements.plist */,
+				1FCF271E126F52D01379BDCA893AC075 /* Pods-SatispayAppExtension_Tests-dummy.m */,
+				A717C94E266DDEEB62774F2EF23B8BBF /* Pods-SatispayAppExtension_Tests-frameworks.sh */,
+				C177F21F18DB334CAACF8C3CE8A6EFB1 /* Pods-SatispayAppExtension_Tests-resources.sh */,
+				23EC20490B23D4895F0D9B6B650E6574 /* Pods-SatispayAppExtension_Tests-umbrella.h */,
+				54AB4D02D84CE8DE67421579B9D4E3B2 /* Pods-SatispayAppExtension_Tests.debug.xcconfig */,
+				B7DDDB08FA6E1C82EC56E74881F210C3 /* Pods-SatispayAppExtension_Tests.release.xcconfig */,
+			);
+			name = "Pods-SatispayAppExtension_Tests";
+			path = "Target Support Files/Pods-SatispayAppExtension_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FC026053C047FF547B30CC9599C49D91 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DFBDFFDB81237A4081BD81F71DE99DC9 /* Products */,
+				260587E9855F8D3342B719FE4D6839B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AF1C933FC75677EA76146DAD83BDA427 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A08D7FCBA91163CEE5E1AC43F91CCB21 /* Info.plist */,
+				F316A77902FB4A055D4D2EFC65FE1029 /* SatispayAppExtension.modulemap */,
+				110F934832BD6C42857404FF4F2A8D5B /* SatispayAppExtension.xcconfig */,
+				C1D2D1CAD14B4EABFB34476A25162037 /* SatispayAppExtension-dummy.m */,
+				381ADA9CC7100862F7D4D0BB7ACB8116 /* SatispayAppExtension-prefix.pch */,
+				933A40888A478F900BE7CD7290D01399 /* SatispayAppExtension-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SatispayAppExtension";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C24DCC0251902898B79BFE10607F5084 /* SatispayAppExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4341CFFA23E169220B88D7199B005C56 /* SatispayAppExtension */,
+				AF1C933FC75677EA76146DAD83BDA427 /* Support Files */,
+			);
+			name = SatispayAppExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CCFB21B00E44ABCB88958371EDE67D8A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				69C1DAD2616602F1BC6E234F61371B8A /* SatispayExtension.h */,
+				478C16C7D80E19ABD3C23BEB8757161C /* SatispayExtension.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DFBDFFDB81237A4081BD81F71DE99DC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A9460D5248A8C2B5F886E357AA4D7B8 /* Pods_SatispayAppExtension_Example.framework */,
+				AB4A4F77A7AF31CD9310DFC6B0933C62 /* Pods_SatispayAppExtension_Tests.framework */,
+				F50E2E8E421B7D9EF82284ED95F7DD67 /* SatispayAppExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1B68668D36F83C79361122C83D1931 /* Pods-SatispayAppExtension_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7B5EE0B40F4B35FC6CB6BFEA3DF6714C /* Info.plist */,
+				A3C059A98E0FFAB15970DC6009D8D5DF /* Pods-SatispayAppExtension_Example.modulemap */,
+				4988FAE20F2D4D15C5150ED0283274A4 /* Pods-SatispayAppExtension_Example-acknowledgements.markdown */,
+				1B4A35373A8F478028217BFDE8FDD211 /* Pods-SatispayAppExtension_Example-acknowledgements.plist */,
+				0D25915E3763849D0508B48D2680CADD /* Pods-SatispayAppExtension_Example-dummy.m */,
+				438FC2B2339E3663BDC3EF456398EEEE /* Pods-SatispayAppExtension_Example-frameworks.sh */,
+				2A4EF22B9A07EF2951CDB45B4A3F5F4D /* Pods-SatispayAppExtension_Example-resources.sh */,
+				E83CE9BAC018F10483929F48000CE4B4 /* Pods-SatispayAppExtension_Example-umbrella.h */,
+				52EE54AD5A15ED52DB1D648C8651B7B7 /* Pods-SatispayAppExtension_Example.debug.xcconfig */,
+				FCBBD6C40C221B6FCD44BA266D8B9943 /* Pods-SatispayAppExtension_Example.release.xcconfig */,
+			);
+			name = "Pods-SatispayAppExtension_Example";
+			path = "Target Support Files/Pods-SatispayAppExtension_Example";
+			sourceTree = "<group>";
+		};
+		FC026053C047FF547B30CC9599C49D91 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C24DCC0251902898B79BFE10607F5084 /* SatispayAppExtension */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24470BF9AC5B5C261A813B82BCF6EB2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD34505E9C9D57D983662425FF0EC1E /* Pods-SatispayAppExtension_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502A69CD23D7653FE07704D7EA0E1696 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062239505F748CDD8696195CD0C33AAB /* SatispayAppExtension-umbrella.h in Headers */,
+				7C60060B1D3B12778BA3C0B9C74F9762 /* SatispayExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD6372DE340117899926C5CEFA0F8EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD360F3FD280D22118AA8A922A8DC14 /* Pods-SatispayAppExtension_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F472757903799737675D6BC09BF6AF0 /* SatispayAppExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8D86FF97E4FE6C96B937A30C6A4941 /* Build configuration list for PBXNativeTarget "SatispayAppExtension" */;
+			buildPhases = (
+				A3370C867FCBD5AE0B10751249FB8C73 /* Sources */,
+				0A6C70FC9830B61ED71B39BCB60AAF10 /* Frameworks */,
+				502A69CD23D7653FE07704D7EA0E1696 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SatispayAppExtension;
+			productName = SatispayAppExtension;
+			productReference = F50E2E8E421B7D9EF82284ED95F7DD67 /* SatispayAppExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		602FE33EA6873E7385BCEF4C6C5AA670 /* Pods-SatispayAppExtension_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDD31AA819E06D7CFC132DCD6413EFA /* Build configuration list for PBXNativeTarget "Pods-SatispayAppExtension_Tests" */;
+			buildPhases = (
+				085F8FE5A24DB97CF4CC309B83572239 /* Sources */,
+				8AADC54B561EE68D2B21151148B17ED6 /* Frameworks */,
+				24470BF9AC5B5C261A813B82BCF6EB2C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SatispayAppExtension_Tests";
+			productName = "Pods-SatispayAppExtension_Tests";
+			productReference = AB4A4F77A7AF31CD9310DFC6B0933C62 /* Pods_SatispayAppExtension_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5D6075F05599D75DBEFCCAFC8C09911 /* Pods-SatispayAppExtension_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931B6349FFACF1C1A36CDBAB1D5712F2 /* Build configuration list for PBXNativeTarget "Pods-SatispayAppExtension_Example" */;
+			buildPhases = (
+				354284EE1FC9FEA715B6F52209383752 /* Sources */,
+				9B2B62104CE12CF737A279E944DE80F7 /* Frameworks */,
+				5AD6372DE340117899926C5CEFA0F8EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1869E8D525E776CFC466215DCD979B /* PBXTargetDependency */,
+			);
+			name = "Pods-SatispayAppExtension_Example";
+			productName = "Pods-SatispayAppExtension_Example";
+			productReference = 3A9460D5248A8C2B5F886E357AA4D7B8 /* Pods_SatispayAppExtension_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DFBDFFDB81237A4081BD81F71DE99DC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D6075F05599D75DBEFCCAFC8C09911 /* Pods-SatispayAppExtension_Example */,
+				602FE33EA6873E7385BCEF4C6C5AA670 /* Pods-SatispayAppExtension_Tests */,
+				3F472757903799737675D6BC09BF6AF0 /* SatispayAppExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085F8FE5A24DB97CF4CC309B83572239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A0E2E902E6258F64AFB043DEC9F7DC /* Pods-SatispayAppExtension_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354284EE1FC9FEA715B6F52209383752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66ED038E7496D349159C74C1B69CEACC /* Pods-SatispayAppExtension_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3370C867FCBD5AE0B10751249FB8C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E2855303D032718E06F7837191CB63 /* SatispayAppExtension-dummy.m in Sources */,
+				1BDAB2144AA2B53CDF2D923575E2D3E5 /* SatispayExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A1869E8D525E776CFC466215DCD979B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SatispayAppExtension;
+			target = 3F472757903799737675D6BC09BF6AF0 /* SatispayAppExtension */;
+			targetProxy = F6E3585D64581145CD6CA3D8DE1E8A55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10E8DF5AD9F5FB7FE734568A5C08FEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110F934832BD6C42857404FF4F2A8D5B /* SatispayAppExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SatispayAppExtension/SatispayAppExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SatispayAppExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SatispayAppExtension/SatispayAppExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SatispayAppExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		996EB5E746C9284C087E63E849537F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DDDB08FA6E1C82EC56E74881F210C3 /* Pods-SatispayAppExtension_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatispayAppExtension_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SatispayAppExtension_Tests/Pods-SatispayAppExtension_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SatispayAppExtension_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42CF06F45E973AC96DB7B559A3B17A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110F934832BD6C42857404FF4F2A8D5B /* SatispayAppExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SatispayAppExtension/SatispayAppExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SatispayAppExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SatispayAppExtension/SatispayAppExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SatispayAppExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD23D3A1A33C697BC5F9149440752FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52EE54AD5A15ED52DB1D648C8651B7B7 /* Pods-SatispayAppExtension_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatispayAppExtension_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SatispayAppExtension_Example/Pods-SatispayAppExtension_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SatispayAppExtension_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4127A60E6E09599221BEF7A8D5BD7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54AB4D02D84CE8DE67421579B9D4E3B2 /* Pods-SatispayAppExtension_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatispayAppExtension_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SatispayAppExtension_Tests/Pods-SatispayAppExtension_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SatispayAppExtension_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAC4362240FCA801985F60107E95564F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBBD6C40C221B6FCD44BA266D8B9943 /* Pods-SatispayAppExtension_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatispayAppExtension_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SatispayAppExtension_Example/Pods-SatispayAppExtension_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SatispayAppExtension_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDD31AA819E06D7CFC132DCD6413EFA /* Build configuration list for PBXNativeTarget "Pods-SatispayAppExtension_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4127A60E6E09599221BEF7A8D5BD7D7 /* Debug */,
+				996EB5E746C9284C087E63E849537F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931B6349FFACF1C1A36CDBAB1D5712F2 /* Build configuration list for PBXNativeTarget "Pods-SatispayAppExtension_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD23D3A1A33C697BC5F9149440752FDD /* Debug */,
+				FAC4362240FCA801985F60107E95564F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8D86FF97E4FE6C96B937A30C6A4941 /* Build configuration list for PBXNativeTarget "SatispayAppExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E8DF5AD9F5FB7FE734568A5C08FEB8 /* Debug */,
+				B42CF06F45E973AC96DB7B559A3B17A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

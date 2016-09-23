@@ -1,0 +1,16 @@
+PODS:
+  - SatispayAppExtension (0.0.1)
+
+DEPENDENCIES:
+  - SatispayAppExtension (from `../`)
+
+EXTERNAL SOURCES:
+  SatispayAppExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SatispayAppExtension: 2ea2e05b5c17caf234b2d6f1d4b6af7af9e5e691
+
+PODFILE CHECKSUM: 58f001b0e52f4728d2f1cd445cb4c446ad3022b8
+
+COCOAPODS: 1.1.0.rc.2
