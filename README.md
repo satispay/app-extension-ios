@@ -17,7 +17,7 @@ To install
 it, simply add the following lines to your Podfile:
 
 ```ruby
-source "https://github.org/satispay/pods"
+source "https://github.com/satispay/pods"
 pod "SatispayAppExtension"
 ```
 
